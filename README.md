@@ -7,4 +7,4 @@ Para subir toda a aplicação executar o comando abaixo.
 docker-compose up -d --build
 ```
 
-Fiz um passo a mais bem simples, se chamar o host "http://localhost:8080" vai adiconar o nome "Eduardo" ao banco, mas caso queira adicionar um nome diferente pode passá-lo como um query param "http://localhost:8080?name=OutroNome"
+Fiz um passo a mais bem simples, se chamar o host "http://localhost:8080" vai adiconar o nome "Eduardo" ao banco, mas caso queira adicionar um nome diferente pode passá-lo como um query param "http://localhost:8080/?name=OutroNome"
